@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Rack-based framework from Rebuilding Rails book.}
   spec.description   = %q{Following Rebuilding Rails, we get this Rack-based framework.}
-  spec.homepage      = "github.com/alextsui05/rulers"
+  spec.homepage      = "https://github.com/alextsui05/rulers"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -34,6 +34,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 10.0"
 
   #spec.add_development_dependency "rspec"
-  #gem.add_runtime_dependency "rest-client"
-  gem.add_runtime_dependency "rack"
+  #spec.add_runtime_dependency "rest-client"
+  spec.add_runtime_dependency "rack"
 end
