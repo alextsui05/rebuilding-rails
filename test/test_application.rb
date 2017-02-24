@@ -1,6 +1,9 @@
 require_relative 'test_helper'
 
 class TestApp < Rulers::Application
+  def get_controller_and_action(env)
+    [TestController, 'foo']
+  end
 end
 
 class RulersAppTest < Test::Unit::TestCase
@@ -10,11 +13,11 @@ class RulersAppTest < Test::Unit::TestCase
   end
 
   def test_request
-    get '/'
+    get '/test/foo'
 
     assert last_response.ok?
     body = last_response.body
-    assert body["Hello"]
+    assert body["baz"]
     assert last_response.content_type == 'text/html'
   end
 
