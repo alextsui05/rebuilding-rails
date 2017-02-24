@@ -1,3 +1,9 @@
+5.0.0
+
+- Finish chapter 4
+- Implement view rendering
+  - Instance variables passed automatically to the view
+
 4.0.0
 
 - Finish chapter 3
