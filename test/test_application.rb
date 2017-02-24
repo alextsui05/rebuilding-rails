@@ -18,6 +18,7 @@ class RulersAppTest < Test::Unit::TestCase
     assert last_response.ok?
     body = last_response.body
     assert body["baz"]
+    assert body["100"]
     assert last_response.content_type == 'text/html'
   end
 
