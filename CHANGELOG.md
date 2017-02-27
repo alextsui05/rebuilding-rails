@@ -1,8 +1,6 @@
-6.2.0
-- Use Rack response
-
-6.1.0
-- Cache request and expose request params in Controller
+7.0.0
+- Finish chapter 6
+- Refactor application to use Rack request/response
 
 6.0.0
 - Finish chapter 5
