@@ -1,10 +1,9 @@
-5.3.0
-
-- Add all query
-
-5.1.0
-
-- Add basic FileModel
+6.0.0
+- Finish chapter 5
+- Implement FileModel
+  - Provides all, find, and create methods
+  - Models are backed by JSON files in the db/quotes directory
+  - TODO: Maybe we don't want to make it specific to quotes
 
 5.0.0
 
