@@ -1,3 +1,6 @@
+6.1.0
+- Cache request and expose request params in Controller
+
 6.0.0
 - Finish chapter 5
 - Implement FileModel

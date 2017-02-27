@@ -24,6 +24,14 @@ module Rulers
       Rulers.to_underscore klass
     end
 
+    def request
+      @request ||= Rack::Request.new(@env)
+    end
+
+    def params
+      request.params
+    end
+
     def env
       @env
     end
