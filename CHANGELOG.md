@@ -5,6 +5,7 @@
 - Add count to query the number of rows
 - Add find to fetch records by id
 - Add bracket operators to set/get data row attributes
+- Add save method to update existing records
 
 7.0.0
 - Finish chapter 6

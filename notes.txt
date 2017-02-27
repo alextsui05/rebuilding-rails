@@ -17,3 +17,6 @@ The "static methods" defined on Model::SQLite actually belong to the singleton
 instance representing the class. So in the line that says Rulers.to_underscore
 name, name is actually calling the name method belonging to the Class instance
 representing our model, which will be the name of our model subclass.
+
+p 98
+Same-line rescue is pretty awesome.
