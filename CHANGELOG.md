@@ -1,3 +1,6 @@
+8.0.0
+
+- Finish chapter 7 on ORMs
 - Add schema to translate table schema into a hash describing its columns
 - Added create to create a row in the table described by the model
   - input attributes are matched to the schema keys and persisted by SQL insert
