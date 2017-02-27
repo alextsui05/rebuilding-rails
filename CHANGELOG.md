@@ -3,6 +3,8 @@
   - input attributes are matched to the schema keys and persisted by SQL insert
   - simple type mapping to SQL
 - Add count to query the number of rows
+- Add find to fetch records by id
+- Add bracket operators to set/get data row attributes
 
 7.0.0
 - Finish chapter 6

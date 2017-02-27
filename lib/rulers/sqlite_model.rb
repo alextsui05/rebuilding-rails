@@ -38,10 +38,26 @@ SQL
         self.new data
       end
 
+      def self.find(id)
+        row = DB.execute <<SQL
+SELECT #{schema.keys.join ","} from #{table} WHERE id = #{id};
+SQL
+        data = Hash[schema.keys.zip row[0]]
+        self.new data
+      end
+
       def self.count
         DB.execute(<<SQL)[0][0]
 SELECT COUNT(1) FROM #{table}
 SQL
+      end
+
+      def [](name)
+        @hash[name.to_s]
+      end
+
+      def []=(name, value)
+        @hash[name.to_s] = value
       end
 
       def self.table
