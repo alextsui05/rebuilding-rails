@@ -1,0 +1,2 @@
+p 68
+It's interesting to compare the bracket assignment operator in ruby to the equivalent in C++ where the bracket operator returns an lvalue that you can assign to.
