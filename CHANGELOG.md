@@ -1,3 +1,11 @@
+5.3.0
+
+- Add all query
+
+5.1.0
+
+- Add basic FileModel
+
 5.0.0
 
 - Finish chapter 4
