@@ -1,3 +1,6 @@
+6.2.0
+- Use Rack response
+
 6.1.0
 - Cache request and expose request params in Controller
 

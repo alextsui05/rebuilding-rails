@@ -3,3 +3,6 @@ It's interesting to compare the bracket assignment operator in ruby to the equiv
 
 p 71
 The interesting thing here I'm seeing is the way you glob a bunch of files using Dir and bracket notation
+
+p 83
+I'm actually confused how render_response works with the render method call
