@@ -6,3 +6,14 @@ The interesting thing here I'm seeing is the way you glob a bunch of files using
 
 p 83
 I'm actually confused how render_response works with the render method call
+
+p 88
+What do you mean FileModel can't handle inheritance? I guess it means that
+although it is a generic base model, we can't extend it to something else and
+expect it to work - it is locked into the quotes model.
+
+p 91
+The "static methods" defined on Model::SQLite actually belong to the singleton
+instance representing the class. So in the line that says Rulers.to_underscore
+name, name is actually calling the name method belonging to the Class instance
+representing our model, which will be the name of our model subclass.
